@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  color: #1e3a5f;
+  background:
+    radial-gradient(circle at top left, rgba(63, 154, 255, 0.14), transparent 28%),
+    linear-gradient(180deg, #f8fbff 0%, #eef5ff 52%, #edf3fb 100%);
+  font-family: "Plus Jakarta Sans", "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: transparent;
+  color: #1f3551;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(30, 136, 229, 0.2);
+}
